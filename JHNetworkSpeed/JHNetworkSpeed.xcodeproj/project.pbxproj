@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C95B7522E98DF500E9DD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B7422E98DF500E9DD94 /* AppDelegate.m */; };
+		18C95B7822E98DF500E9DD94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B7722E98DF500E9DD94 /* ViewController.m */; };
+		18C95B7B22E98DF500E9DD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C95B7922E98DF500E9DD94 /* Main.storyboard */; };
+		18C95B7D22E98E0300E9DD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C95B7C22E98E0300E9DD94 /* Assets.xcassets */; };
+		18C95B8022E98E0300E9DD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C95B7E22E98E0300E9DD94 /* LaunchScreen.storyboard */; };
+		18C95B8322E98E0300E9DD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B8222E98E0300E9DD94 /* main.m */; };
+		18C95B8D22E98E0400E9DD94 /* JHNetworkSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B8C22E98E0400E9DD94 /* JHNetworkSpeedTests.m */; };
+		18C95B9B22E98EAF00E9DD94 /* JHDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B9922E98EAF00E9DD94 /* JHDragView.m */; };
+		18C95B9E22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B9D22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.m */; };
+		18C95BA122E991AC00E9DD94 /* JHNetworkSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C95BA022E991AC00E9DD94 /* JHNetworkSpeed.m */; };
+		18C95BA422E99F0B00E9DD94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C95BA322E99F0B00E9DD94 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C95B8922E98E0400E9DD94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C95B6822E98DF500E9DD94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C95B6F22E98DF500E9DD94;
+			remoteInfo = JHNetworkSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C95B7022E98DF500E9DD94 /* JHNetworkSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHNetworkSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C95B7322E98DF500E9DD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C95B7422E98DF500E9DD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C95B7622E98DF500E9DD94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C95B7722E98DF500E9DD94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C95B7A22E98DF500E9DD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C95B7C22E98E0300E9DD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C95B7F22E98E0300E9DD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C95B8122E98E0300E9DD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C95B8222E98E0300E9DD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C95B8822E98E0400E9DD94 /* JHNetworkSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHNetworkSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C95B8C22E98E0400E9DD94 /* JHNetworkSpeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHNetworkSpeedTests.m; sourceTree = "<group>"; };
+		18C95B8E22E98E0400E9DD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C95B9922E98EAF00E9DD94 /* JHDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDragView.m; sourceTree = "<group>"; };
+		18C95B9A22E98EAF00E9DD94 /* JHDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDragView.h; sourceTree = "<group>"; };
+		18C95B9C22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHNetworkSpeedFloatView.h; sourceTree = "<group>"; };
+		18C95B9D22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHNetworkSpeedFloatView.m; sourceTree = "<group>"; };
+		18C95B9F22E991AC00E9DD94 /* JHNetworkSpeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHNetworkSpeed.h; sourceTree = "<group>"; };
+		18C95BA022E991AC00E9DD94 /* JHNetworkSpeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHNetworkSpeed.m; sourceTree = "<group>"; };
+		18C95BA322E99F0B00E9DD94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C95B6D22E98DF500E9DD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C95BA422E99F0B00E9DD94 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C95B8522E98E0400E9DD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C95B6722E98DF500E9DD94 = {
+			isa = PBXGroup;
+			children = (
+				18C95B7222E98DF500E9DD94 /* JHNetworkSpeed */,
+				18C95B8B22E98E0400E9DD94 /* JHNetworkSpeedTests */,
+				18C95B7122E98DF500E9DD94 /* Products */,
+				18C95BA222E99F0A00E9DD94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C95B7122E98DF500E9DD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C95B7022E98DF500E9DD94 /* JHNetworkSpeed.app */,
+				18C95B8822E98E0400E9DD94 /* JHNetworkSpeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C95B7222E98DF500E9DD94 /* JHNetworkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				18C95B9722E98EAF00E9DD94 /* JHNetworkSpeed */,
+				18C95B7322E98DF500E9DD94 /* AppDelegate.h */,
+				18C95B7422E98DF500E9DD94 /* AppDelegate.m */,
+				18C95B7622E98DF500E9DD94 /* ViewController.h */,
+				18C95B7722E98DF500E9DD94 /* ViewController.m */,
+				18C95B7922E98DF500E9DD94 /* Main.storyboard */,
+				18C95B7C22E98E0300E9DD94 /* Assets.xcassets */,
+				18C95B7E22E98E0300E9DD94 /* LaunchScreen.storyboard */,
+				18C95B8122E98E0300E9DD94 /* Info.plist */,
+				18C95B8222E98E0300E9DD94 /* main.m */,
+			);
+			path = JHNetworkSpeed;
+			sourceTree = "<group>";
+		};
+		18C95B8B22E98E0400E9DD94 /* JHNetworkSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C95B8C22E98E0400E9DD94 /* JHNetworkSpeedTests.m */,
+				18C95B8E22E98E0400E9DD94 /* Info.plist */,
+			);
+			path = JHNetworkSpeedTests;
+			sourceTree = "<group>";
+		};
+		18C95B9722E98EAF00E9DD94 /* JHNetworkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				18C95B9822E98EAF00E9DD94 /* JHDragView */,
+				18C95B9C22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.h */,
+				18C95B9D22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.m */,
+				18C95B9F22E991AC00E9DD94 /* JHNetworkSpeed.h */,
+				18C95BA022E991AC00E9DD94 /* JHNetworkSpeed.m */,
+			);
+			path = JHNetworkSpeed;
+			sourceTree = "<group>";
+		};
+		18C95B9822E98EAF00E9DD94 /* JHDragView */ = {
+			isa = PBXGroup;
+			children = (
+				18C95B9A22E98EAF00E9DD94 /* JHDragView.h */,
+				18C95B9922E98EAF00E9DD94 /* JHDragView.m */,
+			);
+			path = JHDragView;
+			sourceTree = "<group>";
+		};
+		18C95BA222E99F0A00E9DD94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C95BA322E99F0B00E9DD94 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C95B6F22E98DF500E9DD94 /* JHNetworkSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C95B9122E98E0400E9DD94 /* Build configuration list for PBXNativeTarget "JHNetworkSpeed" */;
+			buildPhases = (
+				18C95B6C22E98DF500E9DD94 /* Sources */,
+				18C95B6D22E98DF500E9DD94 /* Frameworks */,
+				18C95B6E22E98DF500E9DD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHNetworkSpeed;
+			productName = JHNetworkSpeed;
+			productReference = 18C95B7022E98DF500E9DD94 /* JHNetworkSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C95B8722E98E0400E9DD94 /* JHNetworkSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C95B9422E98E0400E9DD94 /* Build configuration list for PBXNativeTarget "JHNetworkSpeedTests" */;
+			buildPhases = (
+				18C95B8422E98E0400E9DD94 /* Sources */,
+				18C95B8522E98E0400E9DD94 /* Frameworks */,
+				18C95B8622E98E0400E9DD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C95B8A22E98E0400E9DD94 /* PBXTargetDependency */,
+			);
+			name = JHNetworkSpeedTests;
+			productName = JHNetworkSpeedTests;
+			productReference = 18C95B8822E98E0400E9DD94 /* JHNetworkSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C95B6822E98DF500E9DD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HaoCold;
+				TargetAttributes = {
+					18C95B6F22E98DF500E9DD94 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					18C95B8722E98E0400E9DD94 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18C95B6F22E98DF500E9DD94;
+					};
+				};
+			};
+			buildConfigurationList = 18C95B6B22E98DF500E9DD94 /* Build configuration list for PBXProject "JHNetworkSpeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C95B6722E98DF500E9DD94;
+			productRefGroup = 18C95B7122E98DF500E9DD94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C95B6F22E98DF500E9DD94 /* JHNetworkSpeed */,
+				18C95B8722E98E0400E9DD94 /* JHNetworkSpeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C95B6E22E98DF500E9DD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C95B8022E98E0300E9DD94 /* LaunchScreen.storyboard in Resources */,
+				18C95B7D22E98E0300E9DD94 /* Assets.xcassets in Resources */,
+				18C95B7B22E98DF500E9DD94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C95B8622E98E0400E9DD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C95B6C22E98DF500E9DD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C95B7822E98DF500E9DD94 /* ViewController.m in Sources */,
+				18C95B8322E98E0300E9DD94 /* main.m in Sources */,
+				18C95BA122E991AC00E9DD94 /* JHNetworkSpeed.m in Sources */,
+				18C95B9E22E98F5F00E9DD94 /* JHNetworkSpeedFloatView.m in Sources */,
+				18C95B9B22E98EAF00E9DD94 /* JHDragView.m in Sources */,
+				18C95B7522E98DF500E9DD94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C95B8422E98E0400E9DD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C95B8D22E98E0400E9DD94 /* JHNetworkSpeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C95B8A22E98E0400E9DD94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C95B6F22E98DF500E9DD94 /* JHNetworkSpeed */;
+			targetProxy = 18C95B8922E98E0400E9DD94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C95B7922E98DF500E9DD94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C95B7A22E98DF500E9DD94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C95B7E22E98E0300E9DD94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C95B7F22E98E0300E9DD94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C95B8F22E98E0400E9DD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C95B9022E98E0400E9DD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C95B9222E98E0400E9DD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8MERC5W3E;
+				INFOPLIST_FILE = JHNetworkSpeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHNetworkSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = haocold.develop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C95B9322E98E0400E9DD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8MERC5W3E;
+				INFOPLIST_FILE = JHNetworkSpeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHNetworkSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = haocold.develop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C95B9522E98E0400E9DD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHNetworkSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHNetworkSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHNetworkSpeed.app/JHNetworkSpeed";
+			};
+			name = Debug;
+		};
+		18C95B9622E98E0400E9DD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHNetworkSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHNetworkSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHNetworkSpeed.app/JHNetworkSpeed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C95B6B22E98DF500E9DD94 /* Build configuration list for PBXProject "JHNetworkSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C95B8F22E98E0400E9DD94 /* Debug */,
+				18C95B9022E98E0400E9DD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C95B9122E98E0400E9DD94 /* Build configuration list for PBXNativeTarget "JHNetworkSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C95B9222E98E0400E9DD94 /* Debug */,
+				18C95B9322E98E0400E9DD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C95B9422E98E0400E9DD94 /* Build configuration list for PBXNativeTarget "JHNetworkSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C95B9522E98E0400E9DD94 /* Debug */,
+				18C95B9622E98E0400E9DD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C95B6822E98DF500E9DD94 /* Project object */;
+}
